@@ -1,0 +1,27 @@
+<app-header titulo="Grid row"></app-header>
+
+<ion-content class="ion-padding" fullscreen>
+
+
+    <ion-grid fixed>
+        <ion-col *ngFor="let item of [1,1,1,1,1,1,1,1,1,1,1,1]; let i = index;"
+        size="12" size-lg="3" size-md="4" size-sm="6" size-xs="12">
+            <ion-card>
+                <ion-img src="/assets/shapes.svg"></ion-img>
+                <ion-card-header>
+                    <ion-card-title>
+                        Tarjeta de prueba
+                    </ion-card-title>
+                </ion-card-header>
+                <ion-card-content>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Nesciunt officiis sit quaerat consequatur animi libero natus! 
+                    Culpa ipsa iste ad ratione laborum. Minima doloremque quisquam 
+                    cum officiis fugit atque mollitia.
+                </ion-card-content>
+            </ion-card>
+        </ion-col>
+    </ion-grid>
+  
+
+</ion-content>
